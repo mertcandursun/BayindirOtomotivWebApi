@@ -1,0 +1,6 @@
+@BayindirOtomotivWebApi_HostAddress = http://localhost:5148
+
+GET {{BayindirOtomotivWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
