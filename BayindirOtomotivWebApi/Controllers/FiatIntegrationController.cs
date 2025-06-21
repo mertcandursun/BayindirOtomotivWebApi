@@ -14,14 +14,12 @@ namespace BayindirOtomotivWebApi.Controllers
     {
         private readonly BasbugService _basbugService;
         private readonly IWebHostEnvironment _env;
-        //private readonly GoogleImageService _googleImageService;
         private readonly IdeaSoftService _ideaSoftService;
         private readonly TecDocService _tecDocService;
 
         public FiatIntegrationController(
             BasbugService basbugService,
             IWebHostEnvironment env,
-            GoogleImageService googleImageService,
             IdeaSoftService ideaSoftService,
             TecDocService tecDocService
         )

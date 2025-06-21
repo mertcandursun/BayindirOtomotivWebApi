@@ -42,7 +42,6 @@ var httpClient = new HttpClient(handler);
 // DI kayýtlarý
 // IdeaSoftService
 builder.Services.AddScoped<BasbugService>();
-builder.Services.AddScoped<GoogleImageService>();
 builder.Services.AddScoped<TecDocService>();
 
 builder.Services.AddScoped<IdeaSoftTokenStore>();

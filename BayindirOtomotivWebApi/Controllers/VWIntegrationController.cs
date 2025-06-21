@@ -13,15 +13,13 @@ namespace BayindirOtomotivWebApi.Controllers
     {
         private readonly BasbugService _basbugService;
         private readonly IWebHostEnvironment _env; // Dosya yolu için kullanabiliriz
-        private readonly GoogleImageService _googleImageService;
         private readonly IdeaSoftService _ideaSoftService;
         private readonly TecDocService _tecDocService;
 
-        public VWIntegrationController(BasbugService basbugService, IWebHostEnvironment env, GoogleImageService googleImageService, IdeaSoftService ideaSoftService, TecDocService tecDocService)
+        public VWIntegrationController(BasbugService basbugService, IWebHostEnvironment env, IdeaSoftService ideaSoftService, TecDocService tecDocService)
         {
             _basbugService = basbugService;
             _env = env;
-            _googleImageService = googleImageService;
             _ideaSoftService = ideaSoftService;
             _tecDocService = tecDocService;
         }
